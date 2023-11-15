@@ -50,6 +50,8 @@ public class TreeSerializer_Q3<T> {
      * 
      * Checks if node has been visited and if it has add "c" to the beginning of 
      * the string to flag as a cycle node.
+     * 
+     * Make sure that the object type T type has a .toString() method for serialization.
      */
     public String serialize(NodeG<T> root) {
         if(root == null) {
